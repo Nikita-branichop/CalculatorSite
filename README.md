@@ -1,2 +1,2 @@
 # CalculatorSite
-<img src="CalculatorSite/Calculator.png"/>
+<img src="Calculator.png"/>
