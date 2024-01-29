@@ -36,7 +36,11 @@ function buttonClick(value) {
       Hour = Data.getHours();
       Minutes = Data.getMinutes();
       screen.value =
+        if (Minutes > 9) {
         Day + "." + Month + "." + Year + " | " + Hour + ":" + Minutes;
+      } else {
+        Day + "." + Month + "." + Year + " | " + Hour + ":0" + Minutes;
+      }
       return;
     case "CE":
       reserve = 0;
