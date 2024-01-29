@@ -35,11 +35,10 @@ function buttonClick(value) {
       Day = Data.getDate();
       Hour = Data.getHours();
       Minutes = Data.getMinutes();
-      screen.value =
-        if (Minutes > 9) {
-        Day + "." + Month + "." + Year + " | " + Hour + ":" + Minutes;
+      if (Minutes > 9) {
+        screen.value = Day + "." + Month + "." + Year + " | " + Hour + ":" + Minutes;
       } else {
-        Day + "." + Month + "." + Year + " | " + Hour + ":0" + Minutes;
+        screen.value = Day + "." + Month + "." + Year + " | " + Hour + ":0" + Minutes;
       }
       return;
     case "CE":
