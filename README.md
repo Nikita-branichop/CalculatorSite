@@ -1,2 +1,2 @@
-# CalculatorSite
+# CalculatorSite ©
 <img src="Calculator.png"/>
